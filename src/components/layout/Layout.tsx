@@ -6,8 +6,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   // Put Header or Footer Here
   return (
     <>
-      <Header />
-      <main>{children}</main>
+      <div className='relative'>
+        <Header />
+        <main>{children}</main>
+      </div>
     </>
   );
 }

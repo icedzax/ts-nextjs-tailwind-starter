@@ -12,7 +12,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className='sticky top-0 z-50 bg-gray-800 bg-opacity-60 py-6'>
+    <header className='fixed top-0 z-50 bg-gray-800 bg-opacity-60 py-6 w-full'>
       <div className='layout flex h-14 items-center text-slate-100'>
         <nav className='w-full'>
           <ul className='flex items-center justify-between space-x-4'>
