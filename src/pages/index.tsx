@@ -35,8 +35,9 @@ export default function HomePage() {
               <p className='text-slate-100 py-2'>
                 ผู้กล้าที่ลงทะเบียน 999,999,999
               </p>
+
               <NextImage
-                className='w-96'
+                // className='w-96'
                 src='/images/btnPreRegister.png'
                 width='680'
                 height='151'
@@ -46,7 +47,7 @@ export default function HomePage() {
               <div className='my-4 flex justify-center gap-3 '>
                 <NextImage
                   useSkeleton
-                  className='w-32 md:w-40'
+                  // className='w-32 md:w-40'
                   src='/images/google-play-badge.png'
                   width='269'
                   height='84'
@@ -54,7 +55,7 @@ export default function HomePage() {
                 />
                 <NextImage
                   useSkeleton
-                  className='w-32 md:w-40'
+                  // className='w-32 md:w-40'
                   src='/images/app-store-badge.png'
                   width='269'
                   height='84'
@@ -67,7 +68,7 @@ export default function HomePage() {
         <section className="bg-[url('/images/pre/bg.png')] bg-cover bg-center snap-center">
           <div className='layout relative flex min-h-screen  flex-col items-center justify-center text-center'>
             <NextImage
-              className='w-3/6'
+              className=''
               src='/images/pre/frame-text-1.png'
               width='813'
               height='92'
@@ -75,20 +76,20 @@ export default function HomePage() {
             />
 
             <NextImage
-              className='w-4/6 -my-4'
+              className=' -my-4'
               src='/images/pre/pretext.png'
               width='914'
               height='228'
               alt='Icon'
             />
             <NextImage
-              className='w-3/6 -my-4'
+              className='-my-4'
               src='/images/pre/frame-text.png'
               width='813'
               height='92'
               alt='Icon'
             />
-            <div className='w-full flex justify-end '>
+            <div className='w-full flex lg:justify-end justify-center '>
               <NextImage
                 className=''
                 src='/images/pre/Reward.png'
@@ -98,16 +99,16 @@ export default function HomePage() {
               />
             </div>
           </div>
-          <footer className='absolute md:left-[-50px] bottom-0'>
+          <footer className='absolute bottom-0 invisible sm:visible'>
             <NextImage
-              className='w-4/6'
+              className=' w-full aspect-auto '
               src='/images/pre/npc.png'
-              width='982'
-              height='982'
+              width='800'
+              height='800'
               alt='Icon'
             />
           </footer>
-          <div className='absolute bg-black bg-opacity-40 text-center bottom-1 text-white w-screen p-2'>
+          <div className='absolute bg-black bg-opacity-40 text-center bottom-1 text-white w-screen py-2'>
             <p>
               หากจำนวนการลงทะเบียนล่วงหน้าถึงตามเป้าหมาย
               รางวัลทั้งหมดจะถูกส่งให้ผู้เล่นระบบมือถือทุกคนหลังเปิดเซิฟเวอร์อย่างเป็นทางการ
